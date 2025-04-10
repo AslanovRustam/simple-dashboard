@@ -1,0 +1,20 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "product": "Detail A",
+      "status": "In progress",
+      "quantity": 500
+    },
+    { "id": 2, "product": "Detail B", "status": "Completed", "quantity": 200 }
+  ],
+  "lines": [
+    { "id": 1, "name": "Line 1", "status": "Works" },
+    { "id": 2, "name": "Line 2", "status": "Stopped" }
+  ],
+  "productionStats": [
+    { "hour": "8:00", "units": 50 },
+    { "hour": "9:00", "units": 60 },
+    { "hour": "10:00", "units": 55 }
+  ]
+}
